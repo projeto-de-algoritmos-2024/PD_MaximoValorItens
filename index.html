@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Knapsack</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Knapsack</h1>
+        <form id="knapsack-form">
+            <label for="maxWeight">Peso máximo da mochila:</label>
+            <input type="number" id="maxWeight" name="maxWeight" required>
+            <div id="items">
+                <div class="item">
+                    <label for="weight1">Peso item 1:</label>
+                    <input type="number" id="weight1" name="weight1" required>
+                    <label for="value1">Valor item 1:</label>
+                    <input type="number" id="value1" name="value1" required>
+                    <br>
+                </div>
+            </div>
+            <center><button type="button" id="addItem">Adicionar Item</button></center>
+            <center><button type="submit">Calcular</button></center>
+        </form>
+        <div id="result"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
