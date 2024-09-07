@@ -1,45 +1,34 @@
-**!! Atenção: Renomeie o seu repositório para (Tema)_(NomeDoProjeto). !!** 
+# Máximo Valor de Itens
 
-Temas:
- - Grafos1
- - Grafos2
- - PD
- - D&C
- - Greed
- - Final 
- 
- **!! *Não coloque os nomes dos alunos no título do repositório*. Exemplo de título correto: Grafos2_Labirinto-do-Minotauro !!**
- 
- (Apague essa seção)
-
-# NomedoProjeto
-
-**Número da Lista**: X<br>
-**Conteúdo da Disciplina**: XXXXXXXXXX<br>
+**Conteúdo da Disciplina**: Programação Dinâmica<br>
 
 ## Alunos
 |Matrícula | Aluno |
 | -- | -- |
-| xx/xxxxxx  |  xxxx xxxx xxxxx |
-| xx/xxxxxx  |  xxxx xxxx xxxxx |
+| 20/0061216  |  Cleber de Oliveira Brant |
+| 20/0044559  |  Wesley Lira Carvalho |
 
 ## Sobre 
-Descreva os objetivos do seu projeto e como ele funciona. 
+O objetivo desse projeto é colocar em prática o funcionamento do algoritmo Knapsack (Algoritmo da Mochila). Nele é possível observar os itens com os seus devidos valores e pesos, e também o peso máximo da mochila, que no qual no fim vai calcular a melhor combinação possível de itens em que seus valores serão o resultado ótimo do algoritmo.
 
 ## Screenshots
-Adicione 3 ou mais screenshots do projeto em funcionamento.
+Menu no qual irá escolher os itens, seus valores e o seu peso além do peso da mochila.
+![Knapsack](./assets/Knapsack_image_initial.png)
+
+Algoritmo retornando o melhor resultado possível.
+![Knapsack_melhor_resultado](./assets/knapsack_image_itens.png)
 
 ## Instalação 
-**Linguagem**: xxxxxx<br>
-**Framework**: (caso exista)<br>
-Descreva os pré-requisitos para rodar o seu projeto e os comandos necessários.
+**Linguagem**: HTML, CSS e Javascript<br>
+
+Com o projeto aberto, acesse o terminal e vá até onde o projeto está salvo. Após isso, digite o seguinte comando:
+
+    npm install -g http-server
+
+O comando acima permite que possa subir localmente o projeto em sua máquina. Após ter instalado o http-server, no mesmo terminal e na raiz do projeto insira o seguinte comando: http-server. Uma outra forma de subir localmente o projeto é instalando a extensão Live Server caso esteja pelo Visual Studio Code.
 
 ## Uso 
-Explique como usar seu projeto caso haja algum passo a passo após o comando de execução.
+Após subir o projeto, adicione o valor do peso máximo da mochila e o valor e peso do item 1. Após isso, você pode clicar no botão "Calcular" ou então em "Adicionar Item" para adicionar mais itens na lista e no fim calcular para obter o melhor aproveitamento do Algoritmo da Mochila.
 
 ## Outros 
-Quaisquer outras informações sobre seu projeto podem ser descritas abaixo.
-
-
-
-
+[Vídeo de Apresentação](https://www.youtube.com/watch?v=QMNDIxYqwWo)
